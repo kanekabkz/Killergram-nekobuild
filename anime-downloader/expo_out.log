@@ -1,0 +1,86 @@
+
+> anime-downloader@1.0.0 web
+> expo start --web
+
+Starting project at /app/anime-downloader
+Starting Metro Bundler
+
+Waiting on http://localhost:8081
+
+3 packages may need updating. Run npx expo install --check for details.
+Logs for your project will appear below.
+Web Bundled 8233ms index.js (640 modules)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"}
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  LOG  Error checking token: [TypeError: ExpoSecureStore.default.getValueWithKeyAsync is not a function]
+Web  ERROR  [TypeError: ExpoSecureStore.default.setValueWithKeyAsync is not a function]
+
+Code: LoginScreen.js
+[0m [90m 12 |[39m     [90m// In a real app, you would authenticate with your backend here.[39m
+ [90m 13 |[39m     [36mif[39m (username [33m&&[39m password) {
+[31m[1m>[22m[39m[90m 14 |[39m       [36mawait[39m [33mSecureStore[39m[33m.[39msetItemAsync([32m'userToken'[39m[33m,[39m [32m'dummy-token'[39m)[33m;[39m
+ [90m    |[39m                         [31m[1m^[22m[39m
+ [90m 15 |[39m       onLogin()[33m;[39m
+ [90m 16 |[39m     } [36melse[39m {
+ [90m 17 |[39m       [33mAlert[39m[33m.[39malert([32m'Hata'[39m[33m,[39m [32m'Lütfen kullanıcı adı ve şifre giriniz.'[39m)[33m;[39m[0m
+Call Stack
+  handleLogin (src/screens/LoginScreen.js:14:25)
+Web Bundled 87ms index.js (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"}
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  LOG  Error checking token: [TypeError: ExpoSecureStore.default.getValueWithKeyAsync is not a function]
+Web  WARN  SecureStore unavailable, proceeding with login anyway
+Web Bundled 34ms index.js (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"}
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  LOG  Error checking token: [TypeError: ExpoSecureStore.default.getValueWithKeyAsync is not a function]
+Web  WARN  SecureStore unavailable, proceeding with login anyway
+Web Bundled 33ms index.js (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"}
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  LOG  Error checking token: [TypeError: ExpoSecureStore.default.getValueWithKeyAsync is not a function]
+Web  WARN  SecureStore unavailable, proceeding with login anyway
+Web Bundled 37ms index.js (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"}
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  LOG  Error checking token: [TypeError: ExpoSecureStore.default.getValueWithKeyAsync is not a function]
+Web  WARN  SecureStore unavailable, proceeding with login anyway
+Web Bundled 38ms index.js (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"}
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  LOG  Error checking token: [TypeError: ExpoSecureStore.default.getValueWithKeyAsync is not a function]
+Web  WARN  SecureStore unavailable, proceeding with login anyway
+Web Bundled 31ms index.js (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"}
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  LOG  Error checking token: [TypeError: ExpoSecureStore.default.getValueWithKeyAsync is not a function]
+Web  WARN  SecureStore unavailable, proceeding with login anyway
+Web Bundled 66ms index.js (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"}
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  LOG  Error checking token: [TypeError: ExpoSecureStore.default.getValueWithKeyAsync is not a function]
+Web  WARN  SecureStore unavailable, proceeding with login anyway
